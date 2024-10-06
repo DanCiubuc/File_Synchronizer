@@ -1,0 +1,18 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sync_file"
+version = "0.0.1"
+description = "File Synchronizer"
+readme = "README.md"
+authors = [{ name = "Dan Ciubuc", email = "dan.ciubuc1223@gamil.com.com" }]
+
+[project.scripts]
+sync_file = "sync_file.__main__:main"
+
+[debug]
+debugMode = true
